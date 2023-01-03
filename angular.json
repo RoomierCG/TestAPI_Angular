@@ -60,10 +60,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "TestAPI:build:production"
+              "browserTarget": "TestAPI:build:production",
+              "port": 4000
             },
             "development": {
-              "browserTarget": "TestAPI:build:development"
+              "browserTarget": "TestAPI:build:development",
+              "port": 4000
             }
           },
           "defaultConfiguration": "development"
